@@ -17,7 +17,20 @@ public class Solution {
         System.out.println(new No41().firstMissingPositive(nums2));
     }
 
+    private void testNo32() {
+        String s = "()(())";
+        System.out.println(new No32().longestValidParentheses2(s));
+        s = ")()())";
+        System.out.println(new No32().longestValidParentheses2(s));
+    }
+
+    private void testNo44() {
+        String s = "";
+        String p = "?";
+        System.out.println(new No44().isMatch(s, p));
+    }
+
     public static void main(String[] args) {
-        new Solution().testNo41();
+        new Solution().testNo44();
     }
 }

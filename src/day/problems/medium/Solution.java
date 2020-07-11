@@ -57,8 +57,21 @@ public class Solution {
         System.out.println(new No209().minSubArrayLen(s, nums));
     }
 
+    private void testNo215() {
+        int[] nums = new int[]{3,2,3,1,2,4,5,5,6};
+        int k = 4;
+        System.out.println(new No215().findKthLargest(nums, k));
+        System.out.println(Arrays.toString(nums));
+    }
+
+    private void testNo39() {
+        int[] nums = new int[]{2, 3, 5};
+        int target = 8;
+        System.out.println(new No39().combinationSum(nums, target));
+    }
+
     public static void main(String[] args) {
-        new Solution().testNo209();
+        new Solution().testNo39();
 //        new Solution().testPatternMatching();
     }
 }
